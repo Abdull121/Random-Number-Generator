@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random Number Generator</title>
+</head>
+
+<body>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("bg.jpg");
+            background-repeat: no-repeat;
+            background-size: 1920px 1080px;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+        .box {
+            background-color: rgba(156, 239, 255, 0.477);
+
+            height: 70vh;
+            margin: auto;
+            width: 500px;
+            margin-top: 8rem;
+            text-align: center;
+            padding-top: 50px;
+            border-radius: 10px;
+            border: 3px solid rgba(14, 196, 233, 0.477);
+
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            color: rgb(4, 67, 80);
+
+        }
+
+
+        #btn {
+            background-color: rgba(171, 241, 255, 0.601);
+            margin: 50px 0px;
+            padding: 0.7rem 5rem;
+            font-size: 18px;
+            border: 2px solid rgba(14, 197, 233, 0.17);
+            border-radius: 8px;
+            cursor: pointer;
+            color: rgb(0, 70, 84);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #btn:hover {
+            background-color: rgba(77, 225, 255, 0.601);
+            color: rgb(2, 50, 60);
+        }
+
+        p {
+            font-size: 1.3rem;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(4, 67, 80);
+        }
+
+        @media (max-width:500px) {
+
+            .box {
+            margin:0 auto;
+            width: 400px;
+            margin-top: 8rem;
+
+        }
+
+            #btn {
+
+                margin: 50px 0px;
+                padding: 0.5rem 2.5rem;
+                font-size: 18px;
+               
+            }
+
+            h1 {
+           
+            font-size: 1.5rem;
+            
+
+        }
+
+        p {
+            font-size: 1.1rem;
+           
+
+        }
+    }
+    </style>
+    <div class="box">
+
+        <h1 id="idheading">Random Number Generator</h1>
+        <button id="btn">Generate Random Number</button>
+        <p id="randomNumber">Random Number between 0-10000</p>
+
+    </div>
+    <script src="RandomNumber Generator.js"></script>
+</body>
+
+
+</html>
